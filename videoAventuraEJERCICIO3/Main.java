@@ -12,5 +12,7 @@ public class Main {
         Mago davidClonado = (Mago) david.clonar();
         davidClonado.setNombre("nose");
         davidClonado.setAspectoVisual("sasa");
+        davidClonado.datosHeroe();
+        david.datosHeroe();
     }
 }
