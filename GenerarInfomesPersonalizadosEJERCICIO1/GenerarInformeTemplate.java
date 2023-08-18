@@ -3,12 +3,12 @@ package GenerarInfomesPersonalizadosEJERCICIO1;
 public abstract class GenerarInformeTemplate {
 
 
-    public void pasosGenerarInforme() {
+    public void pasosGenerarInforme(Formato formato) {
         traerDatosDB();
         converirDatos();
         hacerCalculos();
         organizarResultado();
-        guardarInforme();
+        guardarInforme(formato);
     }
 
     abstract void traerDatosDB();
@@ -21,6 +21,8 @@ public abstract class GenerarInformeTemplate {
 
     abstract void organizarResultado();
 
-    abstract void guardarInforme();
+    private void guardarInforme(Formato formato) {
+        System.out.println("Se guardo el informe en formato: " + formato.tipoExtension());
+    }
 
 }

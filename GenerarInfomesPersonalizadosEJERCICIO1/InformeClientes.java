@@ -9,17 +9,16 @@ public class InformeClientes extends Informe {
     @Override
     void traerDatosDB() {
         System.out.println("Extrayendo los datos de Clientes");
-
     }
 
     @Override
     void hacerCalculos() {
         System.out.println("Calculando...");
-
     }
 
     @Override
     void organizarResultado() {
-
+        System.out.println("El Resultado se Formateo");
     }
+
 }

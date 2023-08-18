@@ -9,7 +9,6 @@ public class InformeCostos extends Informe {
     @Override
     void traerDatosDB() {
         System.out.println("Extrayendo los datos Financieros");
-
     }
 
     @Override
@@ -19,6 +18,7 @@ public class InformeCostos extends Informe {
 
     @Override
     void organizarResultado() {
-
+        System.out.println("El Resultado se Formateo");
     }
+
 }
