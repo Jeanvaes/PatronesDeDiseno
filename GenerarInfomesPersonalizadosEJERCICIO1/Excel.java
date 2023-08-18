@@ -5,4 +5,8 @@ public class Excel implements Formato {
     public String tipoExtension() {
         return "Excel";
     }
+
+    public void crearMacros() {
+        System.out.println("Haciendo las macros en Excel");
+    }
 }

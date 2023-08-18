@@ -13,7 +13,7 @@ public abstract class GenerarInformeTemplate {
         organizarResultado();
 
         if (formato.tipoExtension().equals("Excel")) {
-            guardarInformeExcel(formato);
+            guardarInformeExcel((Excel) formato);
         } else {
             guardarInforme(formato);
         }
@@ -39,8 +39,8 @@ public abstract class GenerarInformeTemplate {
 
     abstract void organizarResultado();
 
-    private void guardarInformeExcel(Formato formato) {
-        System.out.println("Haciendo las macros en Excel");
+    private void guardarInformeExcel(Excel formato) {
+        formato.crearMacros();
         System.out.println("Se guardo el informe en formato: " + formato.tipoExtension());
     }
 
