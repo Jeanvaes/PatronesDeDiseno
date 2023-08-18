@@ -13,15 +13,14 @@ public abstract class GenerarInformeTemplate {
 
     abstract void traerDatosDB();
 
-    public String converirDatos(){
-        return "Los datos se convirtieron a txt";
+    private void converirDatos() {
+        System.out.println("Los datos se convirtieron a txt");
     }
+
     abstract void hacerCalculos();
 
     abstract void organizarResultado();
 
-    public String guardarInforme(){
-        return "El informe se guardo en Descargas";
-    }
+    abstract void guardarInforme();
 
 }
