@@ -1,4 +1,4 @@
-package GenerarInfomesPersonalizadosEJERCICIO1.logica;
+package GenerarInfomesPersonalizadosEJERCICIO1;
 
 public abstract class Informe extends GenerarInformeTemplate{
      abstract String getNombre();
