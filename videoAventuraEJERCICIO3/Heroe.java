@@ -24,7 +24,7 @@ public abstract class Heroe {
     }
 
     public void datosHeroe() {
-        System.out.println( "Heroe{" +
+        System.out.println("Heroe{" +
                 "nombre='" + nombre + '\'' +
                 ", aspectoVisual='" + aspectoVisual + '\'' +
                 ", experiencia=" + experiencia +
@@ -34,9 +34,18 @@ public abstract class Heroe {
     }
 
     public abstract void ataque();
+
     public abstract void defensa();
+
     public abstract void habilidaMagica();
+
     public abstract Heroe clonar();
-    public void setNombre(String nombre) { this.nombre = nombre; }
-    public void setAspectoVisual(String aspectoVisual) { this.aspectoVisual = aspectoVisual; }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setAspectoVisual(String aspectoVisual) {
+        this.aspectoVisual = aspectoVisual;
+    }
 }

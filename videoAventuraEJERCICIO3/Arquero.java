@@ -8,6 +8,7 @@ public class Arquero extends Heroe {
     private Arquero(Arquero prototipo) {
         super(prototipo);
     }
+
     @Override
     public void ataque() {
         System.out.println("Daño producido 250");

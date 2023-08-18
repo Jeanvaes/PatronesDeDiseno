@@ -11,6 +11,6 @@ public class Main {
 
         GenerarInformeTemplate infomeClientes = new InformeClientes();
         Formato HTML = new HTML();
-        infomeCostos.pasosGenerarInforme(HTML);
+        infomeClientes.pasosGenerarInforme(HTML);
     }
 }

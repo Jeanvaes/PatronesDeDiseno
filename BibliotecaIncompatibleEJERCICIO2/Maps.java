@@ -1,7 +1,6 @@
 package BibliotecaIncompatibleEJERCICIO2;
 
-public interface Maps
-{
+public interface Maps {
 
 
     void loadGeoJSONMap();

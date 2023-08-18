@@ -1,18 +1,16 @@
 package BibliotecaIncompatibleEJERCICIO2;
 
 
-public class FileKMLAdapter implements Maps
-{
+public class FileKMLAdapter implements Maps {
 
     @Override
-    public void loadGeoJSONMap()
-    {
+    public void loadGeoJSONMap() {
         new KMLMap().loadKMLMap();
     }
 
     @Override
     public String getName() {
-        return  new KMLMap().descriptiveName();
+        return new KMLMap().descriptiveName();
     }
 
     @Override
@@ -22,9 +20,11 @@ public class FileKMLAdapter implements Maps
 
     @Override
     public double getyCoordinate() {
-        double zCord= new KMLMap().getzCord();
-        if (0!= zCord){zCord= (double) 0;}
-        return zCord+new KMLMap().getyCord();
+        double zCord = new KMLMap().getzCord();
+        if (0 != zCord) {
+            zCord = (double) 0;
+        }
+        return zCord + new KMLMap().getyCord();
     }
 
 
