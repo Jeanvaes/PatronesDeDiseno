@@ -1,5 +1,5 @@
 package GenerarInfomesPersonalizadosEJERCICIO1.logica;
 
-public interface Informe{
-     String getNombre();
+public abstract class Informe extends GenerarInformeTemplate{
+     abstract String getNombre();
 }
