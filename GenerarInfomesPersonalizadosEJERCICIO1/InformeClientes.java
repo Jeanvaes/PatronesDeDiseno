@@ -7,6 +7,11 @@ public class InformeClientes extends Informe {
     }
 
     @Override
+    boolean traerCRM() {
+        return true;
+    }
+
+    @Override
     void traerDatosDB() {
         System.out.println("Extrayendo los datos de Clientes");
     }

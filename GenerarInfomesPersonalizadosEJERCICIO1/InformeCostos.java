@@ -7,6 +7,11 @@ public class InformeCostos extends Informe {
     }
 
     @Override
+    boolean traerCRM() {
+        return false;
+    }
+
+    @Override
     void traerDatosDB() {
         System.out.println("Extrayendo los datos Financieros");
     }
