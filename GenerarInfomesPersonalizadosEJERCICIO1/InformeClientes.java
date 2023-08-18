@@ -13,12 +13,12 @@ public class InformeClientes extends Informe {
 
     @Override
     void hacerCalculos() {
-        System.out.println("Calculando...");
+        System.out.println("Calculando datos Clientes...");
     }
 
     @Override
     void organizarResultado() {
-        System.out.println("El Resultado se Formateo");
+        System.out.println("El Resultado se Formateo con los insights clientes");
     }
 
 }
