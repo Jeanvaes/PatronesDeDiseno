@@ -6,4 +6,4 @@
 <img src="DiagramaUML.png">
 
 
-<p>En este caso, se asumió que que la clonacion de Heroes se puede hacer de forma eficiente con el patron de diseño Creacional Prototype. No se usa una interfaz como el patron de dsieño lo presenta, porque al tener la clase abstracta Heroe, podemos colocar en ella el metodo clonar(), para que las clases que heredan de esta lo sobrescriban.</p>
+<p>En este caso, se asumió que la clonación de Héroes se puede hacer de forma eficiente con el patrón de diseño Creacional Prototype. No se usa una interfaz como el patrón de diseño lo presenta, porque al tener la clase abstracta Héroe, podemos colocar en ella el método clonar(), para que las clases que heredan de esta lo sobrescriban.</p>
