@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3ce3c1-d2ed-4c6f-b0fd-30055a0b1287" name="Changes" comment="Added first version of the second exercise based on adapter design pattern">
-      <change afterPath="$PROJECT_DIR$/BibliotecaIncompatibleEJERCICIO2/README.md" afterDir="false" />
+    <list default="true" id="0e3ce3c1-d2ed-4c6f-b0fd-30055a0b1287" name="Changes" comment="Added README file into Exercise 2 package and class diagram">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BibliotecaIncompatibleEJERCICIO2/DiagramaClasesEjercicio2.png" beforeDir="false" afterPath="$PROJECT_DIR$/BibliotecaIncompatibleEJERCICIO2/DiagramaClasesEjercicio2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BibliotecaIncompatibleEJERCICIO2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BibliotecaIncompatibleEJERCICIO2/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\IdeaProjects\PatronesDeDiseno" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\IdeaProjects\PatronesDeDiseno\BibliotecaIncompatibleEJERCICIO2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -93,7 +97,8 @@
       <workItem from="1692256800788" duration="328000" />
       <workItem from="1692389826378" duration="938000" />
       <workItem from="1692390797784" duration="266000" />
-      <workItem from="1692391072369" duration="2098000" />
+      <workItem from="1692391072369" duration="2326000" />
+      <workItem from="1692406070456" duration="1890000" />
     </task>
     <task id="LOCAL-00001" summary="Added first version of the second exercise based on adapter design pattern">
       <option name="closed" value="true" />
@@ -111,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692390714343</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added README file into Exercise 2 package and class diagram">
+      <option name="closed" value="true" />
+      <created>1692393403834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692393403834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added first version of the second exercise based on adapter design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added first version of the second exercise based on adapter design pattern" />
+    <MESSAGE value="Added README file into Exercise 2 package and class diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added README file into Exercise 2 package and class diagram" />
   </component>
 </project>
